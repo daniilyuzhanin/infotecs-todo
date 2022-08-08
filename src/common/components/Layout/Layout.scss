@@ -1,0 +1,19 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+
+  .layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .layout__notes{
+      border: 1px solid green;
+    }
+    .layout__notes-description{
+      border: 1px solid red;
+    }
+  }
+}

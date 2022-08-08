@@ -1,3 +1,5 @@
+import { Layout } from 'common/components/Layout';
+
 export const App = () => (
-  <div>Project</div>
+  <Layout />
 );
