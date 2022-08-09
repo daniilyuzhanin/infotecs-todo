@@ -1,0 +1,22 @@
+$bg-color: linear-gradient(90deg,#636fa4,#e8cbc0);
+$bg-secondary: rgb(255, 255, 255);
+
+//! MEDIA
+
+@mixin mobile($px) {
+  @media screen and (max-width: 600px) {
+    min-width: $px;
+  }
+}
+
+@mixin tablet($px) {
+  @media screen and (max-width: 900px) and (min-width: 600px) {
+    max-width: $px;
+  }
+}
+
+@mixin desctop($px) {
+  @media screen and (min-width: 900px) {
+    min-width: $px;
+  }
+}

@@ -1,0 +1,20 @@
+@import 'variables.scss';
+
+.note-card {
+  display: flex;
+  flex-direction: column;
+  // @include mobile(320px);
+  // @include tablet(900px);
+  // @include desctop(900px);
+  max-width: 900px;
+  height: 600px;
+  background: $bg-secondary;
+  margin: 5%;
+
+  .note-card__content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+}
